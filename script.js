@@ -8,7 +8,7 @@ const roomHash = 'demoFintech';
 console.log(roomHash);
 
 // TODO: Replace with your own channel ID
-const drone = new ScaleDrone('yiS12Ts5RdNhebyM');
+const drone = new ScaleDrone('qMhbbMdtVrkhpIai');
 // Room name needs to be prefixed with 'observable-'
 const roomName = 'observable-' + roomHash;
 console.log(roomName);
