@@ -93,7 +93,7 @@ function startWebRTC(isOfferer) {
                     }
                 })();
             }, 0);
-            canvasOutputLocal.setAttribute("style", "display:;position:absolute;top:610;left:918;width:257;height:193;");
+            canvasOutputLocal.setAttribute("style", "display:;position:absolute;top:610;left:918;width:300;height:200;");
             remoteVideo.setAttribute("style", "width: 140%;height: auto;position: absolute;top: 0;left: 0;");
             localVideo.setAttribute("style", "display: ;");
             canvasOutputLocal.setAttribute("style", "display: ;");
