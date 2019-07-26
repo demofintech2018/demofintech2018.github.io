@@ -97,7 +97,7 @@ function startWebRTC(isOfferer) {
             remoteVideo.setAttribute("style", "width: 140%;height: auto;position: absolute;top: 0;left: 0;");
             localVideo.setAttribute("style", "display: ;");
             canvasOutputLocal.setAttribute("style", "display: ;");
-            hangup.setAttribute("style","position:absolute;left:555;top:773;border-radius:50px;");
+            hangup.setAttribute("style","height:100px;width:100px;position:absolute;left:600;top:800;border-radius:50px;");
             pc.createOffer().then(localDescCreated).catch(onError);
         }
     }else{
